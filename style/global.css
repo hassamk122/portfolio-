@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #0a0a0a;
+  --dark-gray: #1a1a1a;
+  --gray: #666666;
+  --light-gray: #999999;
+  --white: #ffffff;
+  --green: #d4ff27;
+  --green-dim: rgba(0, 255, 65, 0.1);
+   
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family:  "DM Sans", sans-serif;
+  background: var(--white);
+  color: var(--black);
+  line-height: 1.6;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main{
+    width: 1000px;
+    min-height: 100vh;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid var(--black);
+  color: var(--black);
+  font-size: 0.875rem;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 3rem 1.5rem;
+  }
+
+  header {
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+
+  .name {
+    font-size: 2rem;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+}

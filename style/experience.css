@@ -1,0 +1,80 @@
+.experience-section {
+    margin: 10px 20px;  
+  font-family:  "Archivo", sans-serif;
+  margin-bottom: 4rem;
+}
+
+.experience-item {
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  position: relative;
+  padding-left: 1.5rem;
+  background-color: var(--green);
+  padding: 15px 10px;
+}
+
+.experience-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5rem;
+  width: 6px;
+  height: 6px;
+  background: var(--green);
+  border-radius: 50%;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 0.5rem;
+  gap: 2rem;
+}
+
+.experience-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--black);
+}
+
+.experience-company {
+  color: var(--black);
+  font-weight: 500;
+  margin-left: 0.5rem;
+}
+
+.experience-date {
+  font-size: 0.8125rem;
+  color: var(--gray);
+  white-space: nowrap;
+}
+
+.experience-description {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.experience-details {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience-details li {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--gray);
+  margin-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.experience-details li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--gray);
+}

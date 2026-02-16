@@ -1,0 +1,19 @@
+{
+  "projects": [
+    {
+      "title": "Gym Equipment E-Commerce Website",
+      "description": "A full-stack e-commerce platform for gym equipment featuring product browsing, cart management, secure authentication with Spring Security, role-based admin dashboard control, responsive Thymeleaf views, and optimized PostgreSQL persistence using JPA/Hibernate.",
+      "tags": ["Java", "Spring MVC", "Thymeleaf", "PostgreSQL"]
+    },
+    {
+      "title": "Hospital Management System",
+      "description": "A backend hospital management system handling doctors, patients, services, and appointment scheduling with structured JPA/Hibernate entity design, transactional business logic, and optimized queries ensuring data consistency and integrity.",
+      "tags": ["Spring boot","PostgreSQL", "JPA", "Hibernate"]
+    },
+    {
+      "title": "Docx to PDF Converter",
+      "description": "A web-based document conversion service that transforms uploaded .docx files into downloadable PDFs, featuring validated file uploads with Multer, secure temporary file handling with automatic cleanup, and reliable server-side document processing.",
+      "tags": ["JavaScript", "Node.js", "Express.js", "Ejs", "Multer"]
+    }
+  ]
+}
