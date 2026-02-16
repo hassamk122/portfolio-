@@ -32,6 +32,9 @@
   color: var(--gray);
   margin-bottom: 1rem;
   height: 130px;
+  @media (max-width : 768px) {
+    height: 180px;
+  }
 }
 
 .project-tags {
