@@ -1,19 +1,23 @@
 {
   "projects": [
     {
+      "title": "HTTP/1.1 Server Using TCP",
+      "description": "Built a functional HTTP/1.1 server from raw TCP sockets in Go without using net/http package. Implemented manual parsing of request line, headers, and body with proper response formatting. Added support for persistent connections and chunked transfer encoding. ",
+      "tags": ["Golang", "TCP"],
+      "link" :"https://github.com/hassamk122/http_from_tcp_golang"
+    },
+    {
+      "title": "Load Balancer",
+      "description": "Developed a round-robin load balancer in Go to distribute incoming HTTP requests across multiple backend servers efficiently. Implemented concurrent request handling using goroutines, synchronization primitives, mutexes, and wait groups.",
+      "tags": ["Golang", "HTTP", "Concurrency"],
+      "link" :"https://github.com/hassamk122/load_balancer"
+
+    },
+    {
       "title": "Gym Equipment E-Commerce Website",
       "description": "A full-stack e-commerce platform for gym equipment featuring product browsing, cart management, secure authentication with Spring Security, role-based admin dashboard control, responsive Thymeleaf views, and optimized PostgreSQL persistence using JPA/Hibernate.",
-      "tags": ["Java", "Spring MVC", "Thymeleaf", "PostgreSQL"]
-    },
-    {
-      "title": "Hospital Management System",
-      "description": "A backend hospital management system handling doctors, patients, services, and appointment scheduling with structured JPA/Hibernate entity design, transactional business logic, and optimized queries ensuring data consistency and integrity.",
-      "tags": ["Spring boot","PostgreSQL", "JPA", "Hibernate"]
-    },
-    {
-      "title": "Docx to PDF Converter",
-      "description": "A web-based document conversion service that transforms uploaded .docx files into downloadable PDFs, featuring validated file uploads with Multer, secure temporary file handling with automatic cleanup, and reliable server-side document processing.",
-      "tags": ["JavaScript", "Node.js", "Express.js", "Ejs", "Multer"]
+      "tags": ["Java", "Spring MVC", "Thymeleaf", "PostgreSQL"],
+      "link" :"https://github.com/hassamk122/E-commerce-website"
     }
   ]
 }
