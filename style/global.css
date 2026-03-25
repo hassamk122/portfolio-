@@ -6,11 +6,13 @@
 
 :root {
   --black: #0a0a0a;
+  --background:#14120B;
   --dark-gray: #1a1a1a;
   --gray: #666666;
   --light-gray: #999999;
   --white: #ffffff;
   --green: #d4ff27;
+  --secondary:#1D1B15;
   --green-dim: rgba(0, 255, 65, 0.1);
    
 }
@@ -24,7 +26,7 @@ html {
 
 body {
   font-family:  "DM Sans", sans-serif;
-  background: var(--white);
+  background: var(--background);
   color: var(--black);
   line-height: 1.6;
   font-size: 15px;
@@ -41,8 +43,8 @@ main{
 footer {
   text-align: center;
   padding: 2rem 0;
-  border-top: 1px solid var(--black);
-  color: var(--black);
+  border-top: 1px solid var(--gray);
+  color: var(--gray);
   font-size: 0.875rem;
 }
 

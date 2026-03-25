@@ -14,16 +14,17 @@
   font-family: "Noto Nastaliq Urdu", serif;
   font-size: 3.25rem;
   font-weight: 400;
-  color: var(--black);
+    color: var(--green);
   letter-spacing: -0.02em;
   line-height: 1.2;
   padding: 30px;
+  cursor: pointer;
 }
 
 .underline-name{
   position: relative;
 }
-.underline-name::before{
+/* .underline-name::before{
     position: absolute;
     content: "";
     top: -1;
@@ -32,8 +33,8 @@
     right: 0;
     width: 2.75em;
     height: 35px;
-    background-color: var(--green);
-}
+    background-color: var(--secondary);
+} */
 
 .title{
   font-family:  "Archivo", sans-serif;
@@ -56,13 +57,17 @@
 .social-link {
   width: 36px;
   height: 36px;
-  background: var(--green);
+  background: var(--secondary);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--black);
+  color: var(--white);
   text-decoration: none;
   transition: all 0.3s ease;
+  &:hover{
+    background-color: var(--green);
+    color: var(--primary);
+  }
 }
 
 .social-link svg {
