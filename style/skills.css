@@ -5,8 +5,12 @@
 }
 
 .section-title{
-    color: var(--black);
+    color: var(--green);
     font-size: 1.5rem;
+  font-family: "Noto Nastaliq Urdu";
+  text-align: end;
+  padding: 5px;
+  padding-right: 10px;
 }
 
 .skills-grid {

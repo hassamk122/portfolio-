@@ -11,7 +11,7 @@
 }
 .name {
   display: block;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: "Noto Nastaliq Urdu";
   font-size: 3.25rem;
   font-weight: 400;
     color: var(--green);
