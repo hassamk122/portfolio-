@@ -46,9 +46,9 @@
 
 .project-tag {
   padding: 0.25rem 0.75rem;
-  background: var(--black);
+  background-color: var(--green);
   font-size: 0.75rem;
-  color: var(--white);
+  color: var(--black);
 }
 
 .project-github-link{
