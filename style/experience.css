@@ -10,7 +10,6 @@
   position: relative;
   background-color: var(--secondary);
   padding: 15px 20px;
-  border-bottom: 2px solid var(--green);
 }
 
 .experience-item::before {
